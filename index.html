@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Instagram</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <nav>  
+        <a><b>Instagram</b></a>  
+    </nav>  
+    <section id="posts">  
+        <div id="postsBox">  
+            <div class="hidden"> 
+                <div id="firstPost" class="post">  
+                    <div class="avaBox">  
+                        <img class="ava" src="https://avatars.mds.yandex.net/get-shedevrum/11511289/cc2855ebcbb411eea6ebbaaee90618f0/orig">  
+                        <b>Alua</b>  
+                    </div>  
+                    <img class="img" src="https://avatars.mds.yandex.net/get-shedevrum/11511289/cc2855ebcbb411eea6ebbaaee90618f0/orig">  
+                    <div class="likes">  
+                        <a class="likeBtn" onclick="like(15)"><img class="like" src="https://shablon.klev.club/uploads/posts/2024-02/shablon-klev-club-p-shablon-serdechko-pustoe-23.jpg"></a>  
+                        <b class="likeText" >Likes: </b><p class="numberOfLikes" style="margin-right: 200px;"> 78954561231</p>  
+                    </div>  
+                    <div class="postText">  
+                        Я крутая!  
+                    </div> 
+                    <div class="comments">
+                        <h3>Комментарии</h3>
+                        <div class="commentBox"></div>
+                        <div class="commentInputBox">
+                            <input type="text" class="commentInput" placeholder="Добавить комментарий...">
+                            <button class="commentBtn" onclick="addComment(this)">Post</button>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div>  
+    </section>  
+    <script src="script.js"></script>  
+</body>  
+</html>
